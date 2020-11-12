@@ -241,8 +241,6 @@
 <text x="74.3712" y="54.864" size="1.778" layer="22" rot="MR0">OUT10+</text>
 <text x="74.676" y="65.532" size="1.778" layer="22" rot="MR0">OUT9-</text>
 <text x="74.676" y="67.9704" size="1.778" layer="22" rot="MR0">OUT8+</text>
-<dimension x1="92.0496" y1="95.4024" x2="91.44" y2="5.1816" x3="106.040915625" y3="50.195403125" textsize="1.778" layer="1"/>
-<dimension x1="99.06" y1="14.6304" x2="1.8288" y2="15.24" x3="50.366125" y3="2.45035625" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="50pin">

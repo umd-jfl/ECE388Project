@@ -6508,14 +6508,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-5.08" y1="15.24" x2="0" y2="15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="-5.08" y1="17.78" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="-5.08" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U6" gate="A" pin="B1"/>
-</segment>
-</net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -7319,6 +7311,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="-30.48" y1="12.7" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
 <label x="-27.94" y="12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="U6" gate="A" pin="B1"/>
+<wire x1="-5.08" y1="17.78" x2="0" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

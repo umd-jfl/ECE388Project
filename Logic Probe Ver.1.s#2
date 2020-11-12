@@ -5507,6 +5507,8 @@ Standard 8.5x11 US Letter frame</description>
 <text x="185.42" y="109.22" size="1.778" layer="91">D8-D15 Vref</text>
 <text x="185.42" y="106.68" size="1.778" layer="91">D0-D7 Vref</text>
 <text x="193.04" y="104.14" size="1.778" layer="91">+2.4V</text>
+<text x="129.54" y="-55.88" size="1.778" layer="91">11/12/2020</text>
+<text x="129.54" y="-50.8" size="1.778" layer="91">Jin Feng Lin</text>
 </plain>
 <instances>
 <instance part="J5" gate="A" x="198.12" y="119.38" smashed="yes">
@@ -5669,9 +5671,9 @@ Standard 8.5x11 US Letter frame</description>
 <attribute name="NAME" x="135.89" y="-11.2014" size="1.778" layer="95"/>
 <attribute name="VALUE" x="135.89" y="-16.002" size="1.778" layer="96"/>
 </instance>
-<instance part="R29" gate="G$1" x="83.82" y="-33.02" smashed="yes">
-<attribute name="NAME" x="80.01" y="-31.5214" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.01" y="-36.322" size="1.778" layer="96"/>
+<instance part="R29" gate="G$1" x="20.32" y="-15.24" smashed="yes">
+<attribute name="NAME" x="16.51" y="-13.7414" size="1.778" layer="95"/>
+<attribute name="VALUE" x="16.51" y="-18.542" size="1.778" layer="96"/>
 </instance>
 <instance part="R30" gate="G$1" x="167.64" y="12.7" smashed="yes">
 <attribute name="NAME" x="163.83" y="14.1986" size="1.778" layer="95"/>
@@ -5721,7 +5723,6 @@ Standard 8.5x11 US Letter frame</description>
 </instance>
 <instance part="FRAME1" gate="G$1" x="-30.48" y="-58.42" smashed="yes"/>
 <instance part="FRAME1" gate="G$2" x="116.84" y="-58.42" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="129.54" y="-57.15" size="2.54" layer="94" font="vector"/>
 <attribute name="SHEET" x="203.2" y="-57.15" size="2.54" layer="94" font="vector"/>
 <attribute name="DRAWING_NAME" x="132.334" y="-40.64" size="2.7432" layer="94" font="vector"/>
 </instance>
@@ -6676,8 +6677,8 @@ Standard 8.5x11 US Letter frame</description>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="-33.02" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
-<label x="73.66" y="-33.02" size="1.778" layer="95"/>
+<wire x1="10.16" y1="-15.24" x2="15.24" y2="-15.24" width="0.1524" layer="91"/>
+<label x="10.16" y="-15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J5" gate="A" pin="33"/>
@@ -6693,8 +6694,8 @@ Standard 8.5x11 US Letter frame</description>
 </segment>
 <segment>
 <pinref part="R29" gate="G$1" pin="2"/>
-<wire x1="88.9" y1="-33.02" x2="93.98" y2="-33.02" width="0.1524" layer="91"/>
-<label x="91.44" y="-33.02" size="1.778" layer="95"/>
+<wire x1="25.4" y1="-15.24" x2="30.48" y2="-15.24" width="0.1524" layer="91"/>
+<label x="27.94" y="-15.24" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="J5" gate="A" pin="32"/>
